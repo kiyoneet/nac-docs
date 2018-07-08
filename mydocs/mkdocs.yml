@@ -1,0 +1,37 @@
+# Project information
+site_name: 'NAC DOCS'
+site_description: 'NAC Documents'
+site_author: 'Yasumasa Takai'
+
+
+# Copyright
+copyright: 'Copyright (c) 2018 NAC'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 
+  name: 'material'
+  language: 'ja'
+
+# Options
+extra:
+
+  palette:
+    primary: 'Light Blue'
+    accent: 'Orange'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  author:
+    github: 'yourName'
+    twitter: 'yourName'
+
+# Extensions
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'
